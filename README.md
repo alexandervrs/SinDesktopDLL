@@ -1,6 +1,6 @@
 # SinDesktopDLL
 
-An old DLL extension for Game Maker 8 games
+An old Desktop DLL extension for Game Maker 8 games
 
 SinDesktop DLL accesses the user's Desktop in Game Maker 8
 

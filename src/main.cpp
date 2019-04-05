@@ -13,11 +13,8 @@
 #include "main.h"
 #include <windows.h>
 #include <shlobj.h>
-#include <stdio.h>
 #include <iostream>
 #include <vector>
-
-char special_directory_buffer[(MAX_PATH*4)+1];
 
 static std::string utf16ToUTF8( const std::wstring &s )
 {
@@ -74,6 +71,8 @@ static std::wstring utf8ToUTF16(const std::string &utf8)
 	return utf16;
 }
 
+
+char special_directory_buffer[(MAX_PATH*4)+1];
 
 export const char* sin_desktop_get_folder()
 {
